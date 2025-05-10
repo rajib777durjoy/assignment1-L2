@@ -6,13 +6,11 @@ function formatString(input: string, toUpper?: boolean):string{
  }
 else if(toUpper == false){
     return input.toLowerCase()
-    
+
 }
 if(input && toUpper == null){
     return input.toUpperCase()
 }
-
-
 }
 
 // console.log(formatString('hello'))
@@ -112,8 +110,8 @@ async function squareAsync(n: number): Promise<number>{
 
 squareAsync(-4)
 .then(res=>{
-  console.log(res)
+  // console.log(res)
 })
 .catch(err=>{
-  console.log("Error: Negative number not allowed")
+  // console.log("Error: Negative number not allowed")
 })
